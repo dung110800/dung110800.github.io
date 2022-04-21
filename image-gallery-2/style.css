@@ -1,89 +1,48 @@
-*{
+* {
     box-sizing: border-box;
 }
 body {
-    background-color: #161414;
-    font-family: Inter,sans-serif;
+    max-width: 1320px;
+    margin: 0;
 }
-.music {
-    max-width: 100%;
-}
-.single {
+.title {
+    background: url(/images/background.jpg);
     display: flex;
-    justify-content: start;
+    justify-content:center ;
+    align-items: flex-start;
+    height: 200px;
+    margin: 20px;
 }
-.avatar img {
-    max-width: auto;
-    width: 80px;
-    margin-left: 20px;
-    
+h1 {
+    text-align: center;
 }
 .list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-}
-.list .text {
-    color: #ffffff;
-    text-align: left;
-    max-width: 100%;
-    width: 220px;
-
-}
-.text p {
-    color: rgba(255, 255, 255, 0.5);
-    text-align: left;
-    margin-left: 5px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+    justify-content: center;
 }
 .list img {
+    height: 300px;
     width: 260px;
-    height: 260px;
+    max-width: 1320px;
+    margin: 20px;
+    object-fit: cover;
+}
+a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    font-family: Arial;
+    color:#2e75b5;
+    text-align: center;
 }
 h2 {
-    color: #ffffff;
-    margin-left: 20px;
-    font-size: 20px;
+    text-align: center;
 }
-img {
-    border: 0px #d4d4d4 solid;
-    padding: 7px;
-    border-radius:  5%;
-    -moz-border-radius: 5%;
-    -webkit-border-radius: 5%;
+.item:hover {
+    box-shadow: rgba(160, 13, 13, 0.1) 0px 0px 20px;
+    background: bisque;
 }
-h3 {
-    font-size: 14px;
-    margin-left: 5px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.namesingle p {
-    color: #ffffff;
-}
-.list .items .img:hover {
-    transition:.7s;
-    transform: scale(1.05);
-}
-.items .text h3:hover {
-    color: #c662ef;
-    transition:.7s;
-    text-decoration: underline;
-}
-.items .text p:hover {
-    color: #c662ef;
-    transition:.7s;
-    text-decoration: underline;
-}
-.fan .text p:hover {
-    color: #c662ef;
-    transition:.7s;
-    text-decoration: underline;
-}
-.avatar:hover {
-    transition:.7s;
-    transform: scale(1.1);
+div .item {
+    transition: 2s ;
 }
