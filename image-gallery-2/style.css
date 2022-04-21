@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 .title {
-    background: url(/images/background.jpg);
+    background: url(/image-gallery-2/images/background.jpg);
     display: flex;
     justify-content:center ;
     align-items: flex-start;
